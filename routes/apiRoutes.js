@@ -6,4 +6,6 @@ app.get("/notes", (req, res) => {
   res.json(db);
 });
 
+app.post(db);
+
 module.exports = app;
